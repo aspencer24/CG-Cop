@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KOBOL</Machine>
+    <WindowsUser>aspencer</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>adf73318-7321-478b-9e3a-899a435c2a85</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\HierarchicalNavTemplate.exe">
+      <PackagePath>HierarchicalNavTemplate.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\badgelogo.scale-100.png">
+      <PackagePath>Assets\en-US\badgelogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\badgelogo.scale-140.png">
+      <PackagePath>Assets\en-US\badgelogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\badgelogo.scale-180.png">
+      <PackagePath>Assets\en-US\badgelogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-black\Logo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-black\SmallLogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-black\SplashScreen.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-black\storelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-black\widelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-white\Logo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-white\SmallLogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-white\SplashScreen.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-white\storelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\contrast-white\widelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\logo.scale-100.png">
+      <PackagePath>Assets\en-US\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\logo.scale-140.png">
+      <PackagePath>Assets\en-US\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\logo.scale-180.png">
+      <PackagePath>Assets\en-US\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\logo.scale-80.png">
+      <PackagePath>Assets\en-US\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.scale-100.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.scale-140.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.scale-180.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.scale-80.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.targetsize-16.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.targetsize-256.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.targetsize-32.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\smalllogo.targetsize-48.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\splashscreen.scale-100.png">
+      <PackagePath>Assets\en-US\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\splashscreen.scale-140.png">
+      <PackagePath>Assets\en-US\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\splashscreen.scale-180.png">
+      <PackagePath>Assets\en-US\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square310logo.scale-100.png">
+      <PackagePath>Assets\en-US\square310logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square310logo.scale-140.png">
+      <PackagePath>Assets\en-US\square310logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square310logo.scale-180.png">
+      <PackagePath>Assets\en-US\square310logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square310logo.scale-80.png">
+      <PackagePath>Assets\en-US\square310logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square70logo.scale-100.png">
+      <PackagePath>Assets\en-US\square70logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square70logo.scale-140.png">
+      <PackagePath>Assets\en-US\square70logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square70logo.scale-180.png">
+      <PackagePath>Assets\en-US\square70logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\square70logo.scale-80.png">
+      <PackagePath>Assets\en-US\square70logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\storelogo.scale-100.png">
+      <PackagePath>Assets\en-US\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\storelogo.scale-140.png">
+      <PackagePath>Assets\en-US\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\storelogo.scale-180.png">
+      <PackagePath>Assets\en-US\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\widelogo.scale-100.png">
+      <PackagePath>Assets\en-US\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\widelogo.scale-140.png">
+      <PackagePath>Assets\en-US\widelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\widelogo.scale-180.png">
+      <PackagePath>Assets\en-US\widelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\en-US\WideLogo.scale-80.png">
+      <PackagePath>Assets\en-US\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\badgelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\badgelogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\badgelogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\badgelogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\badgelogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\badgelogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-black\Logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-black\SmallLogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-black\SplashScreen.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-black\storelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-black\widelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-white\Logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-white\SmallLogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-white\SplashScreen.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-white\storelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\contrast-white\widelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\logo.scale-140.png">
+      <PackagePath>Assets\fr-FR\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\logo.scale-180.png">
+      <PackagePath>Assets\fr-FR\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\logo.scale-80.png">
+      <PackagePath>Assets\fr-FR\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.scale-80.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.targetsize-16.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.targetsize-256.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.targetsize-32.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\smalllogo.targetsize-48.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\splashscreen.scale-100.png">
+      <PackagePath>Assets\fr-FR\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\splashscreen.scale-140.png">
+      <PackagePath>Assets\fr-FR\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\splashscreen.scale-180.png">
+      <PackagePath>Assets\fr-FR\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square310logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square310logo.scale-140.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square310logo.scale-180.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square310logo.scale-80.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square70logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square70logo.scale-140.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square70logo.scale-180.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\square70logo.scale-80.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\storelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\storelogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\storelogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\widelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\widelogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\widelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\widelogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\widelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\fr-FR\WideLogo.scale-80.png">
+      <PackagePath>Assets\fr-FR\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\Settings\HelpSettings.xbf">
+      <PackagePath>Settings\HelpSettings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\Settings\PrivacySettings.xbf">
+      <PackagePath>Settings\PrivacySettings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\HierarchicalNavTemplate.xr.xml">
+      <PackagePath>HierarchicalNavTemplate.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Downloads\Windows Store app hierarchical navigation\C#\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

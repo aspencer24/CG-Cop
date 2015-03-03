@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KOBOL</Machine>
+    <WindowsUser>aspencer</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>adf73318-7321-478b-9e3a-899a435c2a85</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\aspencer\Documents\CGCop\C#\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>20E47830D14CF8B9D1C02D6527D01A9B5C7F3424C1C6C729C20C2C6AA73A5A3A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>adf73318-7321-478b-9e3a-899a435c2a85_1.0.0.0_neutral__8wekyb3d8bbwe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>adf73318-7321-478b-9e3a-899a435c2a85_8wekyb3d8bbwe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>adf73318-7321-478b-9e3a-899a435c2a85</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-03T06:23:33.333</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\CGCop.exe">
+      <PackagePath>CGCop.exe</PackagePath>
+      <Modified>2015-03-03T06:07:46.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\packages\HtmlAgilityPack.1.4.9\lib\NetCore45\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2015-03-03T05:51:31.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\badgelogo.scale-100.png">
+      <PackagePath>Assets\en-US\badgelogo.scale-100.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\badgelogo.scale-140.png">
+      <PackagePath>Assets\en-US\badgelogo.scale-140.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\badgelogo.scale-180.png">
+      <PackagePath>Assets\en-US\badgelogo.scale-180.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-black\Logo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-black\SmallLogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-black\SplashScreen.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-black\storelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-black\widelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-black\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-white\Logo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-white\SmallLogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-white\SplashScreen.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-white\storelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\contrast-white\widelogo.scale-100.png">
+      <PackagePath>Assets\en-US\contrast-white\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\logo.scale-100.png">
+      <PackagePath>Assets\en-US\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\logo.scale-140.png">
+      <PackagePath>Assets\en-US\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\logo.scale-180.png">
+      <PackagePath>Assets\en-US\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\logo.scale-80.png">
+      <PackagePath>Assets\en-US\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.scale-100.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.scale-140.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.scale-180.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.scale-80.png">
+      <PackagePath>Assets\en-US\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.targetsize-16.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.targetsize-256.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.targetsize-32.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\smalllogo.targetsize-48.png">
+      <PackagePath>Assets\en-US\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\splashscreen.scale-100.png">
+      <PackagePath>Assets\en-US\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\splashscreen.scale-140.png">
+      <PackagePath>Assets\en-US\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\splashscreen.scale-180.png">
+      <PackagePath>Assets\en-US\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square310logo.scale-100.png">
+      <PackagePath>Assets\en-US\square310logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square310logo.scale-140.png">
+      <PackagePath>Assets\en-US\square310logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square310logo.scale-180.png">
+      <PackagePath>Assets\en-US\square310logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square310logo.scale-80.png">
+      <PackagePath>Assets\en-US\square310logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square70logo.scale-100.png">
+      <PackagePath>Assets\en-US\square70logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square70logo.scale-140.png">
+      <PackagePath>Assets\en-US\square70logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square70logo.scale-180.png">
+      <PackagePath>Assets\en-US\square70logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\square70logo.scale-80.png">
+      <PackagePath>Assets\en-US\square70logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\storelogo.scale-100.png">
+      <PackagePath>Assets\en-US\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\storelogo.scale-140.png">
+      <PackagePath>Assets\en-US\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\storelogo.scale-180.png">
+      <PackagePath>Assets\en-US\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\widelogo.scale-100.png">
+      <PackagePath>Assets\en-US\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\widelogo.scale-140.png">
+      <PackagePath>Assets\en-US\widelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\widelogo.scale-180.png">
+      <PackagePath>Assets\en-US\widelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\en-US\WideLogo.scale-80.png">
+      <PackagePath>Assets\en-US\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\badgelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\badgelogo.scale-100.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\badgelogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\badgelogo.scale-140.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\badgelogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\badgelogo.scale-180.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-black\Logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-black\SmallLogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-black\SplashScreen.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-black\storelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-black\widelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-black\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-white\Logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-white\SmallLogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-white\SplashScreen.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-white\storelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\contrast-white\widelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\contrast-white\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\logo.scale-140.png">
+      <PackagePath>Assets\fr-FR\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\logo.scale-180.png">
+      <PackagePath>Assets\fr-FR\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:52.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\logo.scale-80.png">
+      <PackagePath>Assets\fr-FR\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.scale-80.png">
+      <PackagePath>Assets\fr-FR\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.targetsize-16.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.targetsize-256.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.targetsize-32.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\smalllogo.targetsize-48.png">
+      <PackagePath>Assets\fr-FR\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\splashscreen.scale-100.png">
+      <PackagePath>Assets\fr-FR\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\splashscreen.scale-140.png">
+      <PackagePath>Assets\fr-FR\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\splashscreen.scale-180.png">
+      <PackagePath>Assets\fr-FR\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square310logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square310logo.scale-140.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square310logo.scale-180.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square310logo.scale-80.png">
+      <PackagePath>Assets\fr-FR\square310logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square70logo.scale-100.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square70logo.scale-140.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square70logo.scale-180.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\square70logo.scale-80.png">
+      <PackagePath>Assets\fr-FR\square70logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\storelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\storelogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\storelogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\widelogo.scale-100.png">
+      <PackagePath>Assets\fr-FR\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\widelogo.scale-140.png">
+      <PackagePath>Assets\fr-FR\widelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\widelogo.scale-180.png">
+      <PackagePath>Assets\fr-FR\widelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\fr-FR\WideLogo.scale-80.png">
+      <PackagePath>Assets\fr-FR\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-25T12:41:53.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2015-02-25T12:41:52.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\DataModel\PortalData.json">
+      <PackagePath>DataModel\PortalData.json</PackagePath>
+      <Modified>2015-03-03T05:34:20.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-25T12:42:15.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-03-03T05:39:42.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-25T12:42:15.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2015-03-03T05:39:42.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2015-03-03T06:07:46.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\Settings\HelpSettings.xbf">
+      <PackagePath>Settings\HelpSettings.xbf</PackagePath>
+      <Modified>2015-02-25T12:42:15.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\Settings\PrivacySettings.xbf">
+      <PackagePath>Settings\PrivacySettings.xbf</PackagePath>
+      <Modified>2015-02-25T12:42:15.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\CGCop.xr.xml">
+      <PackagePath>CGCop.xr.xml</PackagePath>
+      <Modified>2015-03-03T06:07:46.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aspencer\Documents\CGCop\C#\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-03T06:23:33.164</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
